@@ -1,0 +1,124 @@
+<input type="checkbox" id="menu-toggle">
+<div class="sidebar">
+ <!-- <div class="side-header">
+        <h3>M<span>odern</span></h3>
+    </div>
+     -->
+ <div class="side-content">
+  <div class="profile">
+   <div class="profile-img bg-img"
+    style="background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png)">
+   </div>
+   <h4>Admin</h4>
+   <small>Admin</small>
+  </div>
+  <div class="side-menu">
+   <ul>
+    <li>
+     <a [routerLink]="['/']" class="active">
+      <span class="las la-home"></span>
+      <small class="text-white">Home</small>
+     </a>
+    </li>
+
+    <li>
+     <a [routerLink]="['/admin/list-article']">
+      <span><i class="bi bi-file-earmark-bar-graph"></i>
+      </span>
+      <small class="text-white">list article</small>
+     </a>
+    </li>
+    <li>
+     <a [routerLink]="['/admin/list-ticket']">
+      <span><i class="bi bi-card-list"></i>
+      </span>
+      <small class="text-white">list ticket</small>
+     </a>
+    </li>
+    <li>
+     <a [routerLink]="['/admin/list-manager']">
+      <span><i class="bi bi-list-stars"></i>
+      </span>
+      <small class="text-white">list manager</small>
+     </a>
+    </li>
+    <li>
+     <a [routerLink]="['/admin/list-expert']">
+      <span><i class="bi bi-list"></i>
+      </span>
+      <small class="text-white">list expert </small>
+     </a>
+    </li>
+    <li>
+     <a [routerLink]="['/admin/list-client']">
+      <span><i class="bi bi-person-lines-fill"></i>
+      </span>
+      <small class="text-white">list client</small>
+     </a>
+    </li>
+    <li>
+     <a href="">
+      <span class="las la-user-alt"></span>
+      <small>Profile</small>
+     </a>
+    </li>
+   </ul>
+  </div>
+ </div>
+</div>
+<div class="main-content">
+
+ <app-header>
+ </app-header>
+
+
+ <main>
+        <div class="page-header">
+            <h1>List Ticket</h1>
+        </div>
+<!-- barre de recherche -->
+
+<div class="container">
+    <div class="card p-4 mt-5">
+        <form >
+            <div class="row g-3">
+                <div class="col-lg-6 col-md-12">
+                    <div class="form-floating">
+                        <input type="text" placeholder="Nom de Ticket"  class="form-control" >
+                        
+                        <label>Nom de Ticket</label>
+                    </div>
+                </div>
+                    <div class="col-lg-4 col-md-12">
+                        <app-list-category></app-list-category>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <app-priority></app-priority>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <app-list-category></app-list-category>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <app-theme></app-theme>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <app-nom-expert></app-nom-expert>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="form-floating">
+                            <input type="date" placeholder="DEPARTING"  class="form-control" >
+                            <label>Date de ticket</label>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4">
+                        <button class="btn btn-primary text-uppercase" type="submit">Recherche<i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                
+            </div>
+        </form>
+    </div>
+</div>
+    </main>
+
+</div>
