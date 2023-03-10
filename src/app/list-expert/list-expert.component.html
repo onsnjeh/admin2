@@ -90,26 +90,14 @@
         <label>Nom de Expert</label>
        </div>
       </div>
-      <div class="col-lg-4 col-md-12">
-       <div class="form-floating">
-        <select class="form-select">
-         <option selected="" hidden="">All</option>
-         <option value="1">Social</option>
-         <option value="2">fiscal</option>
-         <option value="3">Juridique</option>
-        </select>
-        <label>Category</label>
+     
+      <div class="col-lg-6 col-md-12">
+        <app-list-category></app-list-category>
        </div>
-      </div>
-      <div class="col-lg-4 col-md-12">
-      <app-list-category></app-list-category>
-      </div>
-      <div class="col-lg-4 col-md-12">
-       <app-theme></app-theme>
-      </div>
-      <div class="col-lg-4 col-md-12">
-       <app-specialite></app-specialite>
-      </div>
+      
+       <div class="col-lg-9 col-md-12">
+        <app-specialite></app-specialite>
+       </div>
       <div class="col-12 mt-4">
        <button class="btn btn-primary text-uppercase" type="submit">Recherche<i class="bi bi-search"></i>
        </button>

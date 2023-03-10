@@ -11,7 +11,6 @@ import { NbreTicketTotalComponent } from './nbre-ticket-total/nbre-ticket-total.
 import { NbreTicketOuvertComponent } from './nbre-ticket-ouvert/nbre-ticket-ouvert.component';
 import { NbreTicketFermeComponent } from './nbre-ticket-ferme/nbre-ticket-ferme.component';
 import { NbreDocumentComponent } from './nbre-document/nbre-document.component';
-import { NbreVisiteurComponent } from './nbre-visiteur/nbre-visiteur.component';
 import { NbreClientComponent } from './nbre-client/nbre-client.component';
 import { NbreManagerComponent } from './nbre-manager/nbre-manager.component';
 import { NbreExpertComponent } from './nbre-expert/nbre-expert.component';
@@ -31,14 +30,16 @@ import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { BoutonOpenComponent } from './bouton-open/bouton-open.component';
 import { FormsModule } from '@angular/forms';
 import { ListCategoryComponent } from './list-category/list-category.component';
-import { PriorityComponent } from './priority/priority.component';
 import { TypeComponent } from './type/type.component';
 import { ThemeComponent } from './theme/theme.component';
 import { SpecialiteComponent } from './specialite/specialite.component';
-import { NomExpertComponent } from './nom-expert/nom-expert.component';
 import { NomManagerComponent } from './nom-manager/nom-manager.component';
-import { TypeClientComponent } from './type-client/type-client.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { PriorityComponent } from './priority/priority.component';
+import { NomExpertComponent } from './nom-expert/nom-expert.component';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { ClientRechercheComponent } from './recherche/client-recherche/client-recherche.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,7 @@ import { TypeClientComponent } from './type-client/type-client.component';
     NbreTicketOuvertComponent,
     NbreTicketFermeComponent,
     NbreDocumentComponent,
-    NbreVisiteurComponent,
+
     NbreClientComponent,
     NbreManagerComponent,
     NbreExpertComponent,
@@ -68,24 +69,28 @@ import { TypeClientComponent } from './type-client/type-client.component';
     BoutonOpenComponent,
     ListCategoryComponent,
     PriorityComponent,
+    NomExpertComponent,
     TypeComponent,
     ThemeComponent,
     SpecialiteComponent,
-    NomExpertComponent,
+
     NomManagerComponent,
-    TypeClientComponent
-   
+     ClientRechercheComponent,
     
+
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     DecimalPipe,
-     NgFor,
-     FormsModule,
-     NgbModule,
-     NgbCollapseModule,
-     NgbNavModule
+    NgFor,
+    FormsModule,
+    NgbModule,
+    NgbCollapseModule,
+    NgbNavModule,
+    HttpClientModule,
+    Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

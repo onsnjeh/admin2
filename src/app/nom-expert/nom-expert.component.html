@@ -1,10 +1,21 @@
 <div class="form-floating">
+    <select class="form-select" >
+        <option *ngFor="let NomExpert of NomExpert" >{{NomExpert.nom}}</option>
+        <!-- <option *ngFor="let option of options" [value]="option">{{option}}</option> -->
+        <!-- <option value="2">Social</option>
+        <option value="3">Fiscal</option> -->
+    </select>
+
+    <label>Nom d'Expert</label>
+</div>
+
+<!-- <div class="form-floating">
  <select class="form-select" [(ngModel)]="selectedOption">
-     <option *ngFor="let option of options" [value]="option">{{option}}</option>
+     <option *ngFor="let option of options" [value]="option">{{option}}</option> -->
      <!-- <option *ngFor="let option of options" [value]="option">{{option}}</option> -->
      <!-- <option value="2">Social</option>
      <option value="3">Fiscal</option> -->
- </select>
+ <!-- </select>
 
  <label>Nom d'Expert</label>
-</div>
+</div> -->

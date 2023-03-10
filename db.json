@@ -1,0 +1,349 @@
+{
+  "client": [
+    {
+      "id": 1,
+      "nom": "sirine",
+      "nombre_ticket": "10",
+      "nombre_document": "10",
+      "service": "service 1",
+      "date": "17/25/2023",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+    },
+    {
+      "id": 2,
+      "nom": "ons",
+      "nombre_ticket": "10",
+      "nombre_document": "10",
+      "service": "service 2",
+      "date": "17/25/2023",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+    },
+    {
+      "id": 3,
+      "nom": "nesrin",
+      "nombre_ticket": "10",
+      "nombre_document": "10",
+      "service": "service 3",
+      "date": "17/25/2023",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+    },{
+      "id": 4,
+      "nom": "Nizar",
+      "nombre_ticket": "10",
+      "nombre_document": "10",                
+      "service": "service 4",
+      "date": "17/25/2023",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+    }
+  ],
+  "document": [
+    {
+      "id": "1",
+      "nom": "Article1",
+      "category": "juridique",
+      "type": "loi",
+      "theme": "loi",
+      "consultant": "nom  consultant 1",
+      "date": "12/11/2023"
+    },
+    {
+      "id": "2",
+      "nom": "Article2",
+      "category": "fiscal",
+      "type": "loi",
+      "theme": "loi",
+      "consultant": "nom  consultant 1",
+      "date": "12/11/2023"
+    },
+    {
+      "id": "3",
+      "nom": "Article3",
+      "category": "social",
+      "type": "loi",
+      "theme": "loi",
+      "consultant": "nom  consultant 1",
+      "date": "12/11/2023"
+    },
+    {
+      "id": "4",
+      "nom": "Article4",
+      "category": "juridique",
+      "type": "loi",
+      "theme": "loi",
+      "consultant": "nom  consultant 1",
+      "date": "12/11/2023"
+    }
+  ],
+  "ticket": [
+    {
+      "id": "1",
+      "nom": "Ticket1",
+      "priority": "normale",
+      "category": "juridique",
+      "consultant": "nom  expert 1",
+      "date": "12/11/2023"
+    },
+    {
+      "id": "2",
+      "nom": "Ticket2",
+      "priority": "urgent",
+      "category": "fiscal",
+      "consultant": "nom  expert 1",
+      "date": "12/11/2023"
+    },
+    {
+      "id": "3",
+      "nom": "Ticket3",
+      "priority": "normale",
+      "category": "social",
+      "consultant": "nom  expert 1",
+      "date": "12/11/2023"
+    },
+    {
+      "id": "4",
+      "nom": "Ticket4",
+      "priority": "normale",
+      "category": "juridique",
+      "consultant": "nom  expert 1",
+      " date": "12/11/2023"
+    }
+  ],
+  "expert": [
+    {
+      "id": "1",
+      "nom": "Expert1",
+      "category": "juridique",
+      "specialite": "loi ",
+      "nombre_ticket": "10",
+      "nombre_document": "5",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+
+    },
+    {
+      "id": "2",
+      "nom": "Expert2",
+      "category": "social",
+      "specialite": "loi ",
+      "nombre_ticket": "10",
+      "nombre_document": "5",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+
+    },
+    {
+      "id": "3",
+      "nom": "Expert1",
+      "category": "fiscal",
+      "specialite": "loi ",
+      "nombre_ticket": "10",
+      "nombre_document": "5",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+
+    },
+    {
+      "id": "4",
+      "nom": "gggggg",
+      "category": "juridique",
+      "specialite": "loi ",
+      "nombre_ticket": "10",
+      "nombre_document": "5",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+
+    }
+  ],
+  "manager": [
+    {
+      "id": "1",
+      "nom": "Manager1",
+      "category": "juridique",
+      "specialite": "loi ",
+      "nombre_ticket": "10",
+      "nombre_document": "5",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+
+    },
+    {
+      "id": "2",
+      "nom": "Manager2",
+      "category": "social",
+      "specialite": "loi ",
+      "nombre_ticket": "10",
+      "nombre_document": "5",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+
+    },
+    {
+      "id": "3",
+      "nom": "Manager1",
+      "category": "fiscal",
+      "specialite": "loi ",
+      "nombre_ticket": "10",
+      "nombre_document": "5",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+
+    },
+    {
+      "id": "4",
+      "nom": "Manager1",
+      "category": "juridique",
+      "specialite": "loi ",
+      "nombre_ticket": "10",
+      "nombre_document": "5",
+      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+
+    }
+  ],
+  "category":
+  [
+    {
+      "id":"1",
+      "category":"all"
+    },{
+    "id":"2",
+    "category":"fiscal"
+  },
+  {
+    "id":"2",
+    "category":"social"
+  },
+  {
+    "id":"3",
+    "category":"juridique"
+  },
+  {
+    "id":"4",
+    "category":"hjbkh"
+  }
+],
+"priority":[{
+  "id":"1",
+  "priority":"all"
+},
+{
+  "id":"2",
+  "priority":"urgent"
+},
+{
+  "id":"3",
+  "priority":"medium"
+},
+{
+  "id":"4",
+  "priority":"normale"
+},
+{
+  "id":"5",
+  "priority":"jnfkdsqj"
+}],
+"specialite":
+[
+  {
+    "id":"1",
+    "specialite":"all"
+  },{
+  "id":"2",
+  "specialite":"fiscal"
+},
+{
+  "id":"2",
+  "specialite":"social"
+},
+{
+  "id":"3",
+  "specialite":"juridique"
+},
+{
+  "id":"4",
+  "specialite":"hjbkh"
+}],
+"type-juridique":
+[
+  {
+    "id":"1",
+    "type":"all"
+  },{
+  "id":"2",
+  "type":"loi organique"
+},
+{
+  "id":"3",
+  "type":"Constitution"
+},
+{
+  "id":"4",
+  "type":"décrets lois"
+},
+{
+  "id":"5",
+  "type":"loi"
+},
+{
+  "id":"6",
+  "type":"décret"
+},{
+  "id":"7",
+  "type":"Circulaires"
+},
+{
+  "id":"8",
+  "type":"decision"
+}
+,{
+  "id":"9",
+  "type":"note"
+}
+,{
+  "id":"10",
+  "type":"code"
+},
+{
+  "id":"11",
+  "type":" judes predences"
+}
+],
+"theme-juridique":
+[
+  {
+    "id":"1",
+    "theme":"all"
+  },{
+  "id":"2",
+  "theme":"droit commercial"
+},
+{
+  "id":"3",
+  "theme":"société commercial"
+},
+{
+  "id":"4",
+  "theme":"travail/social"
+},
+{
+  "id":"5",
+  "theme":"droit civil"
+},
+{
+  "id":"6",
+  "theme":"statut personnel"
+},{
+  "id":"7",
+  "theme":"arbitrage"
+},
+{
+  "id":"8",
+  "theme":"droit pénal"
+}
+,{
+  "id":"9",
+  "theme":"fiscal"
+}
+,{
+  "id":"10",
+  "theme":"droit international privé"
+},
+{
+  "id":"11",
+  "theme":"droit international public"
+}
+]
+
+}

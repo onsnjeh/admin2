@@ -17,22 +17,22 @@
        <th><span class="col"></span> Nom de Client</th>
           <th><span class="col"></span> Priority</th>
           <th><span class="col"></span> Category</th>
-          <th><span class="col"></span> Nom d'expert</th>
+          <th><span class="col"></span> Nom de consultant</th>
           <th><span class="col"></span> Date</th>
           <th><span class="col"></span> Action</th>
       </tr>
   </thead>
 		
 	<tbody>
-		<tr *ngFor="let country of countries; index as i">
-			<th scope="row">{{ i + 1 }}</th>
+		<tr >
+			<td scope="row">{{ item5.id }}</td>
 			<td>
-				{{ country.nameClient }}
+				{{ item5.nom}}
 			</td>
-			<td>{{ country.priority }}</td>
-			<td>{{ country.category }}</td>
-   <td>{{ country.expert }}</td>
-			<td>{{ country.date }}</td>
+			<td>{{ item5.priority }}</td>
+			<td>{{ item5.category }}</td>
+   <td>{{ item5.consultant }}</td>
+			<td>{{ item5.date }}</td>
 <td><app-bouton-open></app-bouton-open></td>
 		</tr>
 	</tbody>

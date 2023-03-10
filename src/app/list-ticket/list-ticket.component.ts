@@ -9,5 +9,5 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class ListTicketComponent {
 //Form variables
 
-  
+parentSelectedOption = 'all';
 }

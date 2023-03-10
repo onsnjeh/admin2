@@ -6,7 +6,16 @@
     </div> -->
     <div>
         <table width="100%">
-            <thead>
+            <div class="section-title" data-aos="fade-up" >
+                <div class="col-6">
+                <img attr.src="{{item4.image}}"class="rounded-circle profile-img-list img-fluid">
+                    <h3>{{ item4.nom }}</h3></div>
+            
+            </div>
+        </table>
+    </div>
+</div>
+<!-- <thead>
                 <tr>
                     <th><span class="col"></span> id</th>
                     <th><span class="col"></span> Nom </th>
@@ -19,20 +28,17 @@
             </thead>
 
             <tbody>
-                <tr *ngFor="let country of countries; index as i">
-                    <th scope="row">{{ i + 1 }}</th>
+                <tr>
+                    <td scope="row"><span>{{ item4.id }}</span></td>
                     <td>
-                        <!-- <img class="bg-img" style="background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png)"/> -->
+                       <img class="bg-img" style="background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png)"/> 
 
-                        {{ country.name }}
+                        {{ item4.nom }}
                     </td>
-                    <td>{{ country.category }}</td>
-                    <td>{{ country.Specialite }}</td>
-                    <td>{{ country.Nombre_de_ticket_repondre }}</td>
-                    <td>{{ country.Nombre_de_document }}</td>
-<td><app-bouton-open></app-bouton-open></td>
+                    <td>{{ item4.category }}</td>
+                    <td>{{ item4.specialite }}</td>
+                    <td>{{ item4.nombre_ticket }}</td>
+                    <td>{{ item4.nombre_document }}</td>
+                    <td><app-bouton-open></app-bouton-open></td>
                 </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
+            </tbody> -->
