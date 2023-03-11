@@ -40,6 +40,11 @@ import { PriorityComponent } from './priority/priority.component';
 import { NomExpertComponent } from './nom-expert/nom-expert.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { ClientRechercheComponent } from './recherche/client-recherche/client-recherche.component';
+import { HomeComponent } from './home/home.component';
+import { BoutonRechercheComponent } from './bouton-recherche/bouton-recherche.component';
+import { PlusOptionComponent } from './plus-option/plus-option.component';
+import { NomAdminComponent } from './nom-admin/nom-admin.component';
+import { TableClientComponent } from './table-client/table-client.component';
 
 @NgModule({
   declarations: [
@@ -76,6 +81,11 @@ import { ClientRechercheComponent } from './recherche/client-recherche/client-re
 
     NomManagerComponent,
      ClientRechercheComponent,
+     HomeComponent,
+     BoutonRechercheComponent,
+     PlusOptionComponent,
+     NomAdminComponent,
+     TableClientComponent,
     
 
 

@@ -1,31 +1,35 @@
-<form (ngSubmit)="rechercher()" #form="ngForm">
+<form >
  <div class="row g-3">
-  <div class="col-lg-6 col-md-12">
+  <div class="col-lg-12 col-md-12">
    <div class="form-floating">
-    <input type="text" placeholder="Nom de  Client" class="form-control" id="nom" name="nom" ng-Model="nom">
+    <input type="text" placeholder="recherche  Client" ng-Model="searchText" autocomplete="on"  class="form-control" id="nom" name="nom">
 
-    <label>Nom de  Client</label>
+    <label>Nom de Client</label>
    </div>
   </div>
-  <div class="col-lg-6 col-md-12">
+ 
+  <div class="col-12 mt-4">
+   <div >
+      <app-table-client ></app-table-client>
+     </div>
+   
+  </div>
+
+ </div>
+</form>
+
+
+
+
+
+
+
+
+
+ <!-- <div class="col-lg-6 col-md-12">
    <div class="form-floating">
     <input type="text" placeholder="Service du Client" class="form-control" id="service" name="service" ng-Model="service">
 
     <label>Service du Client</label>
    </div>
-  </div>
-  <div class="col-lg-4 col-md-12">
-   <!-- <app-type-client></app-type-client> -->
-  </div>
-
-
-  <div class="col-12 mt-4">
-   <button class="btn btn-primary text-uppercase" type="submit">Recherche<i class="bi bi-search"></i>
-   </button>
-  </div>
-
- </div>
-</form>
-<ul>
- <li *ngFor="let resultat of resultats">{{resultat.nom}} - {{resultat.service}}</li>
-</ul>
+  </div> -->

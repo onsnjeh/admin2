@@ -1,0 +1,58 @@
+<div class="page-content">
+ <app-carts></app-carts>
+ <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+     <li ngbNavItem="list-article-dernier">
+         <a ngbNavLink>Dernier Document</a>
+         <ng-template ngbNavContent>
+             <div *ngFor='let item1 of item1'>
+
+
+                 <app-list-article-dernier [item1]="item1"></app-list-article-dernier>
+
+             </div>
+         </ng-template>
+     </li>
+     <li ngbNavItem="list-ticket-dernier">
+         <a ngbNavLink>Dernier Tickets</a>
+         <ng-template ngbNavContent>
+             <div *ngFor='let item5 of item5'>
+                 <app-list-ticket-dernier [item5]="item5"></app-list-ticket-dernier>
+
+             </div>
+
+         </ng-template>
+     </li>
+     <li ngbNavItem="list-client-dernier">
+         <a ngbNavLink>Dernier Client</a>
+         <ng-template ngbNavContent>
+             <div *ngFor='let item2 of item2'>
+                 <app-list-client-dernier [item2]="item2"></app-list-client-dernier>
+             </div>
+
+         </ng-template>
+     </li>
+     <li ngbNavItem="list-manager-dernier">
+         <a ngbNavLink> Manager</a>
+         <ng-template ngbNavContent>
+             <div *ngFor='let item4 of item4'>
+                 <app-list-manager-dernier [item4]="item4"></app-list-manager-dernier>
+
+             </div>
+
+         </ng-template>
+     </li>
+     <li ngbNavItem="list-expert-dernier">
+         <a ngbNavLink> Expert</a>
+         <ng-template ngbNavContent>
+             <div *ngFor='let item3 of item3'>
+                 <app-list-expert-dernier [item3]="item3"></app-list-expert-dernier>
+
+             </div>
+
+         </ng-template>
+     </li>
+ </ul>
+
+ <div [ngbNavOutlet]="nav" class="ms-8"></div>
+</div>
+

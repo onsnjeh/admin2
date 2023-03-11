@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./list-article.component.css']
 })
 export class ListArticleComponent {
-	public isCollapsed = true;
  
   
 }

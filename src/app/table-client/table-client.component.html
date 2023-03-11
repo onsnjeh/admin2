@@ -1,0 +1,27 @@
+ <table width="100%">
+
+  <thead>
+   <tr>
+    <th><span class="col"></span> id</th>
+    <th><span class="col"></span> Nom </th>
+    <th><span class="col"></span> Nombre de ticket</th>
+    <th><span class="col"></span> Nombre de document</th>
+    <th><span class="col"></span> Service</th>
+    <th><span class="col">Action</span></th>
+   </tr>
+  </thead>
+  <tbody>
+ <tr *ngFor="let item2 of item2 | filter:searchText"  >
+  <td scope="row">{{ item2.id }}</td>
+  <td>
+  <!-- <img class="bg-img" style="background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png)"/> -->
+
+   {{item2.nom}}
+</td>
+<td>{{item2.nombre_ticket}}</td>
+<td>{{item2.nombre_document}}</td>
+<td>{{item2.service}}</td>
+<td><app-bouton-open></app-bouton-open></td>
+
+</tr>
+</tbody></table>

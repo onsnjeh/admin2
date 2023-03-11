@@ -10,28 +10,4 @@ import { ClientService } from '../services/client-services/client.service';
 export class ListClientComponent {
   searchText: any;
 
- //client
- item2: client[] = [];
-
- constructor(
-   private service2: ClientService,
-  
- ) { }
-
- ngOnInit() {
-   
-   //client
-   this.GetClient();
-   
- }
- 
- GetClient() {
-   this.service2.getClients().subscribe((allData) => {
-     this.item2 = allData;
-     console.log(this.item2);
-
-   });
- }
- 
- 
 }
